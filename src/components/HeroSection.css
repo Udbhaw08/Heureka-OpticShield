@@ -1,0 +1,91 @@
+/* Hero Section Styles */
+.hero {
+    padding: 0;
+    max-width: 600px;
+}
+
+.section-label {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-number {
+    color: #ff4444;
+    font-weight: 600;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+}
+
+.problem-section {
+    margin-top: 3rem;
+}
+
+.problem-label {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: rgba(255, 68, 68, 0.15);
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    border-radius: 4px;
+    color: #ff4444;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+}
+
+.problem-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.problem-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    margin-top: 4rem;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    max-width: 500px;
+}
+
+.progress-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 15%;
+    background: #ff4444;
+    box-shadow: 0 0 20px rgba(255, 68, 68, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
