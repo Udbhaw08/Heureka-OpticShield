@@ -13,23 +13,23 @@ Traditional CCTV is mostly used **after** an incident as evidence. In high-densi
 - Alerts are slow, fragmented, and often missed  
 - Ground staff get vague, delayed information with no unified view  
 
-OpticShield solves this by combining **live video AI** with **NFC-based smart alerts** and a **unified safety dashboard**.[2][1]
+OpticShield solves this by combining **live video AI** with **NFC-based smart alerts** and a **unified safety dashboard**.
 
 ***
 
 ## 🚀 Key Features
 
 - **Real-Time Threat Detection**  
-  Detects weapons, suspicious objects, and anomalous behavior across CCTV, drones, and bodycams using state-of-the-art deep learning models (YOLO-based detection, SlowFast-like action recognition).[1]
+  Detects weapons, suspicious objects, and anomalous behavior across CCTV, drones, and bodycams using state-of-the-art deep learning models (YOLO-based detection, SlowFast-like action recognition).
 
 - **Criminal & Person-of-Interest Flagging**  
-  Uses face recognition and person re-identification (ArcFace-style embeddings + clothing + posture) to spot wanted individuals across multiple cameras.[1]
+  Uses face recognition and person re-identification (ArcFace-style embeddings + clothing + posture) to spot wanted individuals across multiple cameras.
 
 - **Lost & Found (Missing Person Search)**  
-  Given a reference image, OpticShield searches live and recorded footage using **facial features, clothing, and body pose** to locate missing persons even in dense crowds.[1]
+  Given a reference image, OpticShield searches live and recorded footage using **facial features, clothing, and body pose** to locate missing persons even in dense crowds.
 
 - **NFC-Based Smart Alerts**  
-  NFC tags placed at strategic points allow staff/citizens to tap and raise contextual SOS (lost person, threat, PoI). The system auto-attaches location, camera context, and AI insights to an incident card.[2]
+  NFC tags placed at strategic points allow staff/citizens to tap and raise contextual SOS (lost person, threat, PoI). The system auto-attaches location, camera context, and AI insights to an incident card.
 
 - **Unified Safety Dashboard**  
   Web dashboard showing:
@@ -40,7 +40,7 @@ OpticShield solves this by combining **live video AI** with **NFC-based smart al
 - **False Alert Reduction & Trusted AI**  
   - Whitelist database of authorized weapon-carrying personnel  
   - Human-in-the-loop review for high-risk decisions  
-  - Audit logs, role-based access, DPDP-aligned design[1]
+  - Audit logs, role-based access, DPDP-aligned design
 
 ***
 
@@ -60,7 +60,7 @@ OpticShield solves this by combining **live video AI** with **NFC-based smart al
 2. Run AI pipelines (detection, recognition, re-ID, behavior analysis)  
 3. Fuse results with whitelist/watchlist and context  
 4. Trigger alerts + NFC events → central incident engine  
-5. Display everything on a real-time operator dashboard with controls and logs[1]
+5. Display everything on a real-time operator dashboard with controls and logs
 
 ***
 
@@ -70,4 +70,4 @@ OpticShield solves this by combining **live video AI** with **NFC-based smart al
 
 - Mass events (Mahakumbh, fairs, festivals) – lost child tracing, crowd threat detection  
 - University / corporate campuses – safety, access control, incident tracking  
-- Smart cities – integrated city surveillance and command centers[2]
+- Smart cities – integrated city surveillance and command centers
